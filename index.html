@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EVADE ESTER!</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="./animate.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Assets/favicon-16x16.png">
+    <link rel="manifest" href="Assets/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <div id="wrapper">
+    <body>
+      <div class="header-image">
+        <img src="https://i.imgur.com/Zoz4tKZ.png">
+      </div>
+      <div class="title-row">
+          <div>
+            <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
+            <p class="instructions-title">INSTRUCTIONS</p>
+            <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
+          </div>
+      </div>
+      <div class="instructions-block">
+        <div>
+          <div class="instructions-text">Hiding behind one of these doors is Mamá.</div>
+        </div>
+        <div>
+          <div class="instructions-text">Your mission is to open all of the doors without running into her.</div>
+        </div>
+        <div>
+          <div class="instructions-text">If you manage to avoid Mamá before you open the very last door, you win!</div>
+        </div>
+        <div>
+          <div class="instructions-text">See if you can score a winning streak of 3 or more.</div>
+        </div>
+      </div>
+      <div class="door-row">
+        <table class="door-row">
+          <tr>
+            <td><p>Door One</p></td>
+            <td><p>Door Two</p></td>
+            <td><p>Door Three</p></td>
+          </tr>
+          <tr>
+            <td><img id="door1" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg"></td>
+            <td><img id="door2" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg"></td>
+            <td><img id="door3" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg"></td>
+          </tr>
+        </table>
+      </div>
+      <div id="start-row">
+        <a id="start">Good luck!</a>
+      </div>
+      <div class="rounds-row">
+        <div class="round-number">
+            <h3>Round Number</h3>
+            <h3 id="round-number">1</h3>
+          </div>
+        <div id="streak-box" class="streak-number">
+          <h3>Highest Streak</h3>
+          <h3 id="streak-number">0</h3>
+        </div>
+      </div>
+      <div class="footer">
+        <p>A Silly Game by Cameron Lund</p>
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+    </body>
+  </div>
+</html>

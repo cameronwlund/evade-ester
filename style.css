@@ -1,0 +1,191 @@
+#wrapper {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+body {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header-image {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.header-image img {
+  width: 250px;
+}
+
+.title-row {
+  height: 100%;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.instructions-title {
+  width: 100%;
+  display: inline;
+  font-size: 1.2em;
+  color: #8c52ff;
+  font-family: 'Work Sans';
+  font-weight: bold;
+}
+
+.instructions-block {
+  padding: 0% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+
+.instructions-text {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Work Sans';
+  font-size: 0.8em;
+  color: #8c52ff;
+}
+
+.door-frame {
+  cursor: pointer;
+  padding: 0;
+  margin: 0 10px;
+  width: 80px;
+}
+
+.door-row {
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Work Sans';
+  color: #8c52ff;
+  font-weight: bold;
+}
+
+#start-row {
+  margin: 25px auto;
+  width: 130px;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Work Sans';
+  background-color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid #8c52ff;
+  color: #8c52ff;
+  border-radius: 10px;
+}
+
+.rounds-row {
+  width: 60%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-family: 'Work Sans';
+  font-size: 0.6em;
+  text-align: center;
+  color: #8c52ff;
+}
+
+.round-number {
+  padding-top: 10px;
+  width: 100px;
+  height: auto;
+  margin-right: 5%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid #8c52ff;
+  border-radius: 10px;
+  color: #8c52ff;
+}
+
+.streak-number {
+  padding-top: 10px;
+  width: 100px;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid #8c52ff;
+  border-radius: 10px;
+}
+
+#round-number {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+#streak-number {
+  margin-top: 0;
+  font-size: 2em;
+}
+
+.footer {
+  padding: 50px;
+  text-align: center;
+  font-family: 'Work Sans';
+  font-size: 0.6em;
+  color: purple;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .header-image {
+    padding-top: 50px;
+  }
+
+  .header-image img {
+    width: 350px;
+  }
+
+  .door-frame {
+    width: 120px;
+  }
+
+  .instructions-title {
+    font-size: 1.6em;
+  }
+
+  .instructions-text {
+    font-size: 1.2em;
+  }
+
+  .start-row {
+    font-size: 1.2em;
+    margin: 40px auto;
+  }
+
+  .rounds-row {
+    font-size: 1em;
+    margin-top: 50px;
+  }
+
+  .round-number {
+    height: 120px;
+  }
+
+  .streak-number {
+    height: 120px;
+
+  }
+}
